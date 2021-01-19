@@ -14,6 +14,10 @@ cite {
   letter-spacing: 0.1em;
 }
 
+img {
+  display: block;
+}
+
 .btn {
   border: 3px solid #fec63e;
   padding: 10px 30px;
@@ -30,6 +34,10 @@ cite {
   border-color: black;
 }
 
+.btn_white:hover {
+  color: white;
+  border-color: white;
+}
 .subtitulo {
   font-weight: bold;
   font-size: 24px;
