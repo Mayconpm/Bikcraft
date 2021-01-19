@@ -1,0 +1,33 @@
+.header {
+  width: 100%;
+  background-color: #fec63e; /* Amarelo */
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  text-align: right;
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.header_menu ul li a {
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: white;
+}
