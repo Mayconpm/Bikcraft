@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/sobre.css">
+  <link rel="stylesheet" href="css/responsivo.css">
+  <script> document.documentElement.classList.add("js")</script>
 </head>
 
 <body>
@@ -30,34 +32,34 @@
 
   <section class="introducao_interna introducao_sobre">
     <div class="container">
-      <h1>Sobre</h1>
-      <p>Conheça mais sobre a empresa.
+      <h1 data-anime="400">Sobre</h1>
+      <p data-anime="800">Conheça mais sobre a empresa.
       </p>
     </div>
   </section>
 
   <section class="missao_sobre container">
     <div class="grid-10">
-      <h2 class="subtitulo_interno">História, missão e visão</h2>
-      <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro.</p>
+      <h2 class="subtitulo_interno" data-anime="1200">História, missão e visão</h2>
+      <p data-anime="1600">O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500, quando uma misturou os caracteres de um texto para criar um espécime de livro.</p>
 
-      <p> Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada.</p>
+      <p data-anime="1600"> Este texto não só sobreviveu 5 séculos, mas também o salto para a tipografia electrónica, mantendo-se essencialmente inalterada.</p>
     </div>
     <div class="grid-6">
-      <h2 class="subtitulo_interno">Valores</h2>
-      <ul>
+      <h2 class="subtitulo_interno" data-anime="1200">Valores</h2>
+      <ul data-anime="1600">
         <li>- Qualidade no processo com</li>
         <li>- Foco no cliente sem perder a</li>
         <li>- Diversão, preservando a</li>
         <li>- Natureza com sustentabilidade</li>
       </ul>
     </div>
-    <div class="grid-16 foto_equipe">
+    <div class="grid-16 foto_equipe" data-anime="2000">
       <img src="/img/equipe-bikcraft.jpg" alt="Equipe bikcraft">
     </div>
   </section>
 
-  <section class="qualidade container">
+  <section class="qualidade container" data-anime="2400">
     <h2 class="subtitulo">Qualidade</h2>
     <img src="img\bikcraft-qualidade.svg" alt="Logo amarelo Bickcraft">
     <ul class="qualidade_lista">
@@ -116,6 +118,8 @@
       <p class="grid-16">Bikcraft 2020 - Alguns direitos reservados.</p>
     </div>
   </div>
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

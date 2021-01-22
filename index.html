@@ -7,10 +7,13 @@
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsivo.css">
   <title>Bikcraft</title>
+  <script> document.documentElement.classList.add("js")</script>
 </head>
 
 <body>
+
 
   <header class="header">
     <div class="container">
@@ -30,16 +33,16 @@
 
   <section class="introducao">
     <div class="container">
-      <h1>Bicicletas feitas a mão</h1>
-      <blockquote class="quote_externo">
+      <h1 data-anime="400">Bicicletas feitas a mão</h1>
+      <blockquote data-anime="800" class="quote_externo">
         <p>"não tenha nada em sua casa que você não considere útil ou acredite ser bonito."</p>
         <cite>William Morris</cite>
       </blockquote>
-      <a href="produtos.html" class="btn">Orçamento</a>
+      <a data-anime="1200" href="produtos.html" class="btn">Orçamento</a>
     </div>
   </section>
 
-  <section class="produtos container">
+  <section class="produtos container fadeInDown" data-anime="1600">
     <h2 class="subtitulo">
       Produtos
     </h2>
@@ -81,8 +84,8 @@
   <!-- Fecha produtos -->
   <section class="portfolio">
     <div class="container">
-      <h2 class="subtitulo">Portfólio</h2>
-      <ul class="portfolio_lista">
+      <h2 class="subtitulo" data-anime="2000">Portfólio</h2>
+      <ul class="portfolio_lista" data-anime="2400">
         <li class="grid-8"><img src="img\portfolio\retro.jpg" alt="Bicicleta retrô"></li>
         <li class="grid-8"><img src="img\portfolio\passeio.jpg" alt="Bicicleta passeio"></li>
         <li class="grid-16"><img src="img\portfolio\esporte.jpg" alt="Bicicleta esporte"></li>
@@ -158,6 +161,8 @@
       <p class="grid-16">Bikcraft 2020 - Alguns direitos reservados.</p>
     </div>
   </div>
+  <script src="./js/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 
 </body>
 
